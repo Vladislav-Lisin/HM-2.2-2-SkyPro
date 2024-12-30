@@ -1,10 +1,10 @@
 public interface TransportInterface {
-    default void updateTyre(){
+    default void updateTyre() {
     }
 
-    default void checkEngine(){
+    default void checkEngine() {
     }
 
-    default void checkTrailer(){
+    default void checkTrailer() {
     }
 }
