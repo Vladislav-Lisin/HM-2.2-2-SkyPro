@@ -15,9 +15,10 @@ public class Main {
 
         ServiceStation station = new ServiceStation();
 
-        for (int i = 0; i < transports.length; i++) {
-            station.check(transports[i]);
+        for (Transport transport : transports) {
+            station.check(transport);
         }
+
 
     }
 }
